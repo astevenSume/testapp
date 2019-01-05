@@ -6,7 +6,6 @@ var browserSync = require('browser-sync'),
     buffer = require('vinyl-buffer'),
     browserify = require('browserify');
 var pkg  =require(__dirname + "/package.json");
-
 //这个ok
 // gulp.task('bundle-js-other', function(){
 //   var b = browserify({entries: './temp/source/js/main.js', debug: true});
